@@ -1,0 +1,61 @@
+body {
+  font-family: 'Arial', sans-serif;
+    /*I used arial font for the words*/
+  background-color: #f3f3f3;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 32px;
+  /*This changed the color of the box around the nav bar to black*/
+}
+
+header {
+  background-color: #0047ab;
+  height: 150px;
+  padding: 4px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  text-align: ceter;
+  color: #fff;
+  line-height: 50px;
+}
+
+header h2 {
+font-variant: small-caps;
+text-align: center;
+color: #fff;
+}
+
+.main_menu {
+  padding: 5px 0 5px 0;
+  text-align: center;
+  line-height: 32px;
+  background-color: #000000;
+}
+
+ul.main_menu {
+  margin-top: 15px;
+}
+
+.main_menu li {
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+}
+
+.main_menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  font-variant: small-caps;
+}
+
+.main_menu a:hover {
+  color: #ffd700;
+}
+/*I changed the hover color of the words on the navigation bar to gold on the championships page*/
